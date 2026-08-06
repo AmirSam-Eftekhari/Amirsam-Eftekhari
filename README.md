@@ -65,4 +65,4 @@ Deep-learning tooling and experiments for image-based perception tasks.
 <!-- Add your links below -->
 - GitHub: [@Amirsam-Eftekhari](https://github.com/Amirsam-Eftekhari)
 - Instagram: [@sam_nia0](https://instagram.com/sam_nia0)
-- Email: amirsameftekharinia0@gmail.com
+- Email: samnia2010@gmail.com
