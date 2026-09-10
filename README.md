@@ -10,13 +10,18 @@
 
 <br/>
 
-```text
+<div align="center">
+
+<pre align="left">
 SYSTEM://amirsam-eftekhari
+
 ├── DOMAIN[0]  AI & MACHINE LEARNING
 ├── DOMAIN[1]  COMPUTER VISION
 ├── DOMAIN[2]  ROBOTICS
 └── DOMAIN[3]  SOFTWARE ENGINEERING
-```
+</pre>
+
+</div>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
