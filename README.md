@@ -13,12 +13,17 @@
 <div align="center">
 
 <pre align="left">
+
 SYSTEM://amirsam-eftekhari
 
 ├── DOMAIN[0]  AI & MACHINE LEARNING
+
 ├── DOMAIN[1]  COMPUTER VISION
+
 ├── DOMAIN[2]  ROBOTICS
+
 └── DOMAIN[3]  SOFTWARE ENGINEERING
+
 </pre>
 
 </div>
@@ -137,12 +142,14 @@ Autonomous robotics systems built and iterated on for national and international
 ## `05` — TECHNOLOGY MATRIX
 
 <table>
+
 <tr>
 <th align="left" width="160">LANGUAGES</th>
 <td>
 
-![Python](https://img.shields.io/badge/Python-0A0E17?style=flat-square\&logo=python\&logoColor=00D9FF)
-![C++](https://img.shields.io/badge/C%2B%2B-0A0E17?style=flat-square\&logo=cplusplus\&logoColor=00D9FF)
+<img src="https://img.shields.io/badge/Python-0A0E17?style=flat-square&logo=python&logoColor=00D9FF" alt="Python" />
+
+<img src="https://img.shields.io/badge/C%2B%2B-0A0E17?style=flat-square&logo=cplusplus&logoColor=00D9FF" alt="C++" />
 
 </td>
 </tr>
@@ -151,9 +158,11 @@ Autonomous robotics systems built and iterated on for national and international
 <th align="left">AI / ML</th>
 <td>
 
-![PyTorch](https://img.shields.io/badge/PyTorch-0A0E17?style=flat-square\&logo=pytorch\&logoColor=00D9FF)
-![OpenCV](https://img.shields.io/badge/OpenCV-0A0E17?style=flat-square\&logo=opencv\&logoColor=00D9FF)
-![YOLO](https://img.shields.io/badge/YOLO-0A0E17?style=flat-square\&logoColor=00D9FF)
+<img src="https://img.shields.io/badge/PyTorch-0A0E17?style=flat-square&logo=pytorch&logoColor=00D9FF" alt="PyTorch" />
+
+<img src="https://img.shields.io/badge/OpenCV-0A0E17?style=flat-square&logo=opencv&logoColor=00D9FF" alt="OpenCV" />
+
+<img src="https://img.shields.io/badge/YOLO-0A0E17?style=flat-square&logoColor=00D9FF" alt="YOLO" />
 
 </td>
 </tr>
@@ -162,7 +171,7 @@ Autonomous robotics systems built and iterated on for national and international
 <th align="left">ROBOTICS</th>
 <td>
 
-![Webots](https://img.shields.io/badge/Webots-0A0E17?style=flat-square\&logoColor=00D9FF)
+<img src="https://img.shields.io/badge/Webots-0A0E17?style=flat-square&logoColor=00D9FF" alt="Webots" />
 
 </td>
 </tr>
@@ -171,12 +180,15 @@ Autonomous robotics systems built and iterated on for national and international
 <th align="left">TOOLS</th>
 <td>
 
-![Git](https://img.shields.io/badge/Git-0A0E17?style=flat-square\&logo=git\&logoColor=00D9FF)
-![GitHub](https://img.shields.io/badge/GitHub-0A0E17?style=flat-square\&logo=github\&logoColor=00D9FF)
-![Linux](https://img.shields.io/badge/Linux-0A0E17?style=flat-square\&logo=linux\&logoColor=00D9FF)
+<img src="https://img.shields.io/badge/Git-0A0E17?style=flat-square&logo=git&logoColor=00D9FF" alt="Git" />
+
+<img src="https://img.shields.io/badge/GitHub-0A0E17?style=flat-square&logo=github&logoColor=00D9FF" alt="GitHub" />
+
+<img src="https://img.shields.io/badge/Linux-0A0E17?style=flat-square&logo=linux&logoColor=00D9FF" alt="Linux" />
 
 </td>
 </tr>
+
 </table>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
@@ -184,6 +196,7 @@ Autonomous robotics systems built and iterated on for national and international
 ## `06` — CREDENTIALS
 
 <table>
+
 <tr>
 <th align="left" width="300">CREDENTIAL</th>
 <th align="left" width="160">ISSUER</th>
@@ -219,6 +232,8 @@ Autonomous robotics systems built and iterated on for national and international
 <img src="https://github-readme-stats.vercel.app/api?username=AmirSam-Eftekhari&show_icons=true&hide_border=true&bg_color=0A0E17&title_color=00D9FF&icon_color=00D9FF&text_color=E2E8F0&border_color=1E293B" width="48%" alt="GitHub Stats" />
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmirSam-Eftekhari&layout=compact&hide_border=true&bg_color=0A0E17&title_color=00D9FF&text_color=E2E8F0&border_color=1E293B" width="48%" alt="Top Languages" />
+
+<br/><br/>
 
 <img src="https://streak-stats.demolab.com?user=AmirSam-Eftekhari&background=0A0E17&stroke=1E293B&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF&sideLabels=E2E8F0&currStreakNum=E2E8F0&sideNums=E2E8F0&dates=64748B&border=1E293B" width="100%" alt="GitHub Streak" />
 
