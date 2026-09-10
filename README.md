@@ -222,6 +222,22 @@ Autonomous robotics systems built and iterated on for national and international
 </td>
 </tr>
 
+<tr>
+<td>YOLO in Production</td>
+<td>Ultralytics Academy</td>
+<td>
+<a href="https://academy.ultralytics.com/courses/yolo-in-production/certificate/250fbc59-259d-41f4-abdc-a753fda5b155">verify ↗</a>
+</td>
+</tr>
+
+<tr>
+<td>Build with Ultralytics Platform</td>
+<td>Ultralytics Academy</td>
+<td>
+<a href="https://academy.ultralytics.com/courses/build-with-ultralytics-platform/certificate/d7fe4aea-16c5-4a86-8ea8-dcf79b9e8c5d">verify ↗</a>
+</td>
+</tr>
+
 </table>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
