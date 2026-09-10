@@ -1,0 +1,28 @@
+<svg width="1200" height="130" viewBox="0 0 1200 130" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070c"/>
+      <stop offset="100%" stop-color="#0a0f1c"/>
+    </linearGradient>
+    <pattern id="fGrid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#101d30" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="130" fill="url(#fBg)"/>
+  <rect width="1200" height="130" fill="url(#fGrid)" opacity="0.5"/>
+  <line x1="0" y1="0" x2="1200" y2="0" stroke="#16283f" stroke-width="1"/>
+
+  <text x="600" y="58" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" letter-spacing="3" fill="#e2e8f0">
+    STILL BUILDING
+    <animate attributeName="opacity" values="1;1;0.3;1" dur="3s" repeatCount="indefinite"/>
+  </text>
+  <text x="600" y="84" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" letter-spacing="2" fill="#4a6178">THANKS FOR READING THE LOG — MORE SYSTEMS INCOMING</text>
+
+  <g>
+    <circle cx="560" cy="106" r="3" fill="#00d9ff"><animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite" begin="0s"/></circle>
+    <circle cx="580" cy="106" r="3" fill="#00d9ff"><animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite" begin="0.2s"/></circle>
+    <circle cx="600" cy="106" r="3" fill="#00d9ff"><animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite" begin="0.4s"/></circle>
+    <circle cx="620" cy="106" r="3" fill="#00d9ff"><animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite" begin="0.6s"/></circle>
+    <circle cx="640" cy="106" r="3" fill="#00d9ff"><animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite" begin="0.8s"/></circle>
+  </g>
+</svg>

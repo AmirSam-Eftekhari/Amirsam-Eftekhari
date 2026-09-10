@@ -1,133 +1,232 @@
-<h1 align="center">Amirsam Eftekharinia</h1>
+<div align="center">
 
-<p align="center">
-  <strong>AI • Computer Vision • Robotics • Software Engineering</strong>
-</p>
+<img src="./assets/hero.svg" width="100%" alt="Sam — AI / Robotics / Computer Vision" />
 
-<p align="center">
-  I build practical intelligent systems that combine machine learning,
-  computer vision, robotics, and software engineering.
-</p>
+<br/>
 
----
+<img src="./assets/status.svg" alt="System Status: Online" />
 
-## About
+</div>
 
-I'm a high school student focused on **Artificial Intelligence, Computer Vision, Robotics, and Computer Science**.
+<br/>
 
-My projects are centered around building complete systems rather than isolated experiments — from perception and machine learning to algorithms, simulation, data processing, and user-facing applications.
+```text
+SYSTEM://sam-eftekhari
+├── DOMAIN[0]  AI & MACHINE LEARNING
+├── DOMAIN[1]  COMPUTER VISION
+├── DOMAIN[2]  ROBOTICS
+└── DOMAIN[3]  SOFTWARE ENGINEERING
+```
 
-I'm particularly interested in systems that can **perceive their environment, make decisions, and act autonomously**.
+<img src="./assets/divider.svg" width="100%" alt="" />
 
----
+## `01` — ABOUT
 
-## Selected Projects
+High-school student building systems at the intersection of **Artificial Intelligence**, **Computer Vision**, and **Robotics** — with a growing interest in **AI Security**.
 
-### 📝 ExamCorrector — AI-Powered Exam Assessment Platform
+I'd rather build than just study: exam-grading pipelines, offline computer-vision graders, gesture-based interfaces, and competition robotics systems. Currently exploring how classical CV, applied ML, and embedded robotics come together in real, physical systems.
 
-A complete assessment platform for processing and evaluating exams, with a focus on automated OMR-based multiple-choice assessment and extensible exam-processing workflows.
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-**Core areas:**
+## `02` — ENGINEERING SYSTEMS
 
-* Automated OMR processing and answer detection
-* Template-based exam sheet processing
-* Image preprocessing and perspective correction
-* Confidence-aware result handling
-* OCR-based text-field processing
-* Exam and submission management
-* Analytics and result generation
-* PDF, Excel, CSV and other export workflows
-* Desktop and web-based interfaces
-* Automated testing through GitHub Actions
+<div align="center">
 
-**Repository:**
-[View ExamCorrector →](https://github.com/AmirSam-Eftekhari/ExamCorrector-)
+<img src="./assets/systems.svg" width="100%" alt="Engineering systems diagram — AI, Computer Vision, Robotics, Software Engineering, AI Security" />
 
----
+</div>
 
-### 🤖 Autonomous Rescue Robot Simulation
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-An autonomous rescue robot developed for **RoboCupJunior Rescue Simulation** using the Erebus platform and Webots.
+## `03` — SELECTED PROJECTS
 
-The system combines:
+<table>
+<tr>
+<td width="90" valign="top">
 
-* Computer vision for victim identification
-* LiDAR-based environmental perception
-* Autonomous navigation
-* Path planning and graph-based algorithms
-* Control systems for robot movement
-* Simulation-based testing and evaluation
+```
+P01
+```
 
----
+</td>
+<td>
 
-### 👁 Computer Vision & Deep Learning
+### [GradeForge](https://github.com/AmirSam-Eftekhari/GradeForge)
+<sub>`AI` &nbsp;`NLP`&nbsp; `EDUCATION` — STATUS: PUBLIC</sub>
 
-Research and development projects focused on visual perception and deep learning.
+AI-assisted system for grading written and long-answer exam responses.
 
-Areas include:
+</td>
+</tr>
+</table>
 
-* Object detection
-* Pose estimation
-* Image classification
-* Dataset preparation and auto-labeling
-* OpenCV-based computer vision pipelines
-* YOLO-based detection systems
-* PyTorch and TensorFlow experimentation
+<table>
+<tr>
+<td width="90" valign="top">
 
----
+```
+P02
+```
 
-## Achievements
+</td>
+<td>
 
-* 🥇 **Champion — Iran Open RoboCupJunior 2026, Rescue Simulation**
-* 🥇 **Best Technical Challenge — RoboCupJunior Iran Open 2026**
-* 🌏 **Represented Iran — RoboCupJunior 2026, South Korea**
-* 🏆 **Iran Open RoboCupJunior 2025 — Rescue Simulation**
+### [ExamCorrector](https://github.com/AmirSam-Eftekhari/ExamCorrector-)
+<sub>`COMPUTER VISION` &nbsp;`OMR`&nbsp; `OFFLINE` — STATUS: PUBLIC</sub>
 
----
+Offline, computer-vision-based OMR system for processing and grading exam sheets.
 
-## Technical Focus
+</td>
+</tr>
+</table>
 
-| Area                | Technologies / Concepts                      |
-| ------------------- | -------------------------------------------- |
-| **Programming**     | Python, C++                                  |
-| **AI / ML**         | PyTorch, TensorFlow, Hugging Face            |
-| **Computer Vision** | OpenCV, YOLO, Image Processing               |
-| **Robotics**        | Webots, Autonomous Navigation, Path Planning |
-| **Algorithms**      | Graph Algorithms, Search, Optimization       |
-| **Applications**    | PySide6, Web Applications                    |
-| **Data**            | SQLite, NumPy, Pandas                        |
-| **Development**     | Git, GitHub Actions, Testing                 |
+<table>
+<tr>
+<td width="90" valign="top">
 
----
+```
+P03
+```
 
-## What I'm Learning
+</td>
+<td>
 
-* Deep Learning
-* Computer Vision
-* Machine Learning
-* Algorithms & Data Structures
-* Autonomous Robotics
-* Software Architecture
-* AI-powered applications
+### [HandGestureControl](https://github.com/AmirSam-Eftekhari/HandGestureControl)
+<sub>`COMPUTER VISION` &nbsp;`REAL-TIME`&nbsp; `HCI` — STATUS: PUBLIC</sub>
 
----
+Real-time computer-vision system for hand and gesture-based interaction.
 
-## Philosophy
+</td>
+</tr>
+</table>
 
-> **Build systems, not just demos.**
+<table>
+<tr>
+<td width="90" valign="top">
 
-I care about understanding how the individual components work together — from algorithms and models to software architecture and real-world behavior.
+```
+P04
+```
 
----
+</td>
+<td>
 
-## Connect
+### Autonomous Systems / Robotics
+<sub>`ROBOTICS` &nbsp;`AUTONOMY`&nbsp; `COMPETITION` — STATUS: TEAM PROJECT</sub>
 
-* **GitHub:** [@AmirSam-Eftekhari](https://github.com/AmirSam-Eftekhari)
-* **Instagram:** [@sam_nia0](https://instagram.com/sam_nia0)
-* **Email:** [samnia2010@gmail.com](mailto:samnia2010@gmail.com)
+Autonomous robotics systems built and iterated on for national and international competition. Code kept private per team policy.
 
----
+</td>
+</tr>
+</table>
 
-<p align="center">
-  <sub>Building, experimenting, and learning — one system at a time.</sub>
-</p>
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+## `04` — MISSION LOG
+
+| YEAR | EVENT | RESULT |
+|:--|:--|:--|
+| 2025 | RoboCup Iran Open | Participant |
+| 2026 | IranOpen Junior | National Champion |
+| 2026 | IranOpen Junior | Best Technical Challenge |
+| 2026 | RoboCupJunior | 4th Place — World Finals |
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+## `05` — TECHNOLOGY MATRIX
+
+<table>
+<tr>
+<th align="left" width="160">LANGUAGES</th>
+<td>
+
+![Python](https://img.shields.io/badge/Python-0A0E17?style=flat-square&logo=python&logoColor=00D9FF)
+![C++](https://img.shields.io/badge/C%2B%2B-0A0E17?style=flat-square&logo=cplusplus&logoColor=00D9FF)
+
+</td>
+</tr>
+<tr>
+<th align="left">AI / ML</th>
+<td>
+
+![PyTorch](https://img.shields.io/badge/PyTorch-0A0E17?style=flat-square&logo=pytorch&logoColor=00D9FF)
+![OpenCV](https://img.shields.io/badge/OpenCV-0A0E17?style=flat-square&logo=opencv&logoColor=00D9FF)
+![YOLO](https://img.shields.io/badge/YOLO-0A0E17?style=flat-square&logoColor=00D9FF)
+
+</td>
+</tr>
+<tr>
+<th align="left">ROBOTICS</th>
+<td>
+
+![Webots](https://img.shields.io/badge/Webots-0A0E17?style=flat-square&logoColor=00D9FF)
+
+</td>
+</tr>
+<tr>
+<th align="left">TOOLS</th>
+<td>
+
+![Git](https://img.shields.io/badge/Git-0A0E17?style=flat-square&logo=git&logoColor=00D9FF)
+![GitHub](https://img.shields.io/badge/GitHub-0A0E17?style=flat-square&logo=github&logoColor=00D9FF)
+![Linux](https://img.shields.io/badge/Linux-0A0E17?style=flat-square&logo=linux&logoColor=00D9FF)
+
+</td>
+</tr>
+</table>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+## `06` — CREDENTIALS
+
+<table>
+<tr>
+<th align="left" width="300">CREDENTIAL</th>
+<th align="left" width="160">ISSUER</th>
+<th align="left">VERIFICATION</th>
+</tr>
+<tr>
+<td>Computer Vision Foundations</td>
+<td>Ultralytics Academy</td>
+<td><a href="https://academy.ultralytics.com/courses/computer-vision-foundations/certificate/18b45788-a066-4d91-8234-c339c9e24239">verify ↗</a></td>
+</tr>
+<tr>
+<td>Building High-Performance YOLO Datasets</td>
+<td>Ultralytics Academy</td>
+<td><a href="https://academy.ultralytics.com/courses/dataset-readiness-for-yolo/certificate/cb676cf9-ac4f-43e2-808f-2287cf2eb135">verify ↗</a></td>
+</tr>
+<tr>
+<td>Train Your First YOLO Model</td>
+<td>Ultralytics Academy</td>
+<td><a href="https://academy.ultralytics.com/courses/train-your-first-yolo/certificate/5384a777-e4e4-4cfd-9dce-589c86fbead1">verify ↗</a></td>
+</tr>
+</table>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+## `07` — GITHUB ACTIVITY
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=AmirSam-Eftekhari&show_icons=true&hide_border=true&bg_color=0A0E17&title_color=00D9FF&icon_color=00D9FF&text_color=E2E8F0&border_color=1E293B" width="48%" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmirSam-Eftekhari&layout=compact&hide_border=true&bg_color=0A0E17&title_color=00D9FF&text_color=E2E8F0&border_color=1E293B" width="48%" alt="Top Languages" />
+
+<img src="https://streak-stats.demolab.com?user=AmirSam-Eftekhari&background=0A0E17&stroke=1E293B&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF&sideLabels=E2E8F0&currStreakNum=E2E8F0&sideNums=E2E8F0&dates=64748B&border=1E293B" width="100%" alt="GitHub Streak" />
+
+</div>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+## `08` — CURRENT SYSTEM
+
+```text
+STATUS ................. ACTIVE
+FOCUS ................... Computer Vision / AI / Robotics
+MODE .................... Building & Iterating
+```
+
+<div align="center">
+
+<img src="./assets/footer.svg" width="100%" alt="" />
+
+</div>
