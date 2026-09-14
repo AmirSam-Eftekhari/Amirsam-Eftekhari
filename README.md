@@ -44,7 +44,7 @@ I'd rather build than just study: exam-grading pipelines, offline computer-visio
 <tr>
 <td width="90" valign="top">
 
-```
+```text
 P01
 ```
 
@@ -52,7 +52,8 @@ P01
 <td>
 
 ### [GradeForge](https://github.com/AmirSam-Eftekhari/GradeForge)
-<sub>`AI` &nbsp;`NLP`&nbsp; `EDUCATION` — STATUS: PUBLIC</sub>
+
+<sub>`AI`   `NLP`   `EDUCATION` — STATUS: PUBLIC</sub>
 
 AI-assisted system for grading written and long-answer exam responses.
 
@@ -64,7 +65,7 @@ AI-assisted system for grading written and long-answer exam responses.
 <tr>
 <td width="90" valign="top">
 
-```
+```text
 P02
 ```
 
@@ -72,9 +73,10 @@ P02
 <td>
 
 ### [ExamCorrector](https://github.com/AmirSam-Eftekhari/ExamCorrector-)
-<sub>`COMPUTER VISION` &nbsp;`OMR`&nbsp; `OFFLINE` — STATUS: PUBLIC</sub>
 
-Offline, computer-vision-based OMR system for processing and grading exam sheets.
+<sub>`COMPUTER VISION`   `OMR`   `OFFLINE` — STATUS: PUBLIC</sub>
+
+Offline computer-vision-based OMR system for processing and grading exam sheets.
 
 </td>
 </tr>
@@ -84,7 +86,7 @@ Offline, computer-vision-based OMR system for processing and grading exam sheets
 <tr>
 <td width="90" valign="top">
 
-```
+```text
 P03
 ```
 
@@ -92,7 +94,8 @@ P03
 <td>
 
 ### [HandGestureControl](https://github.com/AmirSam-Eftekhari/HandGestureControl)
-<sub>`COMPUTER VISION` &nbsp;`REAL-TIME`&nbsp; `HCI` — STATUS: PUBLIC</sub>
+
+<sub>`COMPUTER VISION`   `REAL-TIME`   `HCI` — STATUS: PUBLIC</sub>
 
 Real-time computer-vision system for hand and gesture-based interaction.
 
@@ -104,7 +107,7 @@ Real-time computer-vision system for hand and gesture-based interaction.
 <tr>
 <td width="90" valign="top">
 
-```
+```text
 P04
 ```
 
@@ -112,9 +115,10 @@ P04
 <td>
 
 ### Autonomous Systems / Robotics
-<sub>`ROBOTICS` &nbsp;`AUTONOMY`&nbsp; `COMPETITION` — STATUS: TEAM PROJECT</sub>
 
-Autonomous robotics systems built and iterated on for national and international competition. Code kept private per team policy.
+<sub>`ROBOTICS`   `AUTONOMY`   `COMPETITION` — STATUS: TEAM PROJECT</sub>
+
+Autonomous robotics systems developed and iterated on for national and international competition. Code is kept private under team policy.
 
 </td>
 </tr>
@@ -124,12 +128,12 @@ Autonomous robotics systems built and iterated on for national and international
 
 ## `04` — MISSION LOG
 
-| YEAR | EVENT | RESULT |
-|:--|:--|:--|
-| 2025 | RoboCup Iran Open | Participant |
-| 2026 | IranOpen Junior | National Champion |
-| 2026 | IranOpen Junior | Best Technical Challenge |
-| 2026 | RoboCupJunior | 4th Place — World Finals |
+| YEAR | EVENT             | RESULT                   |
+| :--- | :---------------- | :----------------------- |
+| 2025 | RoboCup Iran Open | Participant              |
+| 2026 | IranOpen Junior   | National Champion        |
+| 2026 | IranOpen Junior   | Best Technical Challenge |
+| 2026 | RoboCupJunior     | 4th Place — World Finals |
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
@@ -140,36 +144,39 @@ Autonomous robotics systems built and iterated on for national and international
 <th align="left" width="160">LANGUAGES</th>
 <td>
 
-![Python](https://img.shields.io/badge/Python-0A0E17?style=flat-square&logo=python&logoColor=00D9FF)
-![C++](https://img.shields.io/badge/C%2B%2B-0A0E17?style=flat-square&logo=cplusplus&logoColor=00D9FF)
+![Python](https://img.shields.io/badge/Python-0A0E17?style=flat-square\&logo=python\&logoColor=00D9FF)
+![C++](https://img.shields.io/badge/C%2B%2B-0A0E17?style=flat-square\&logo=cplusplus\&logoColor=00D9FF)
 
 </td>
 </tr>
+
 <tr>
 <th align="left">AI / ML</th>
 <td>
 
-![PyTorch](https://img.shields.io/badge/PyTorch-0A0E17?style=flat-square&logo=pytorch&logoColor=00D9FF)
-![OpenCV](https://img.shields.io/badge/OpenCV-0A0E17?style=flat-square&logo=opencv&logoColor=00D9FF)
-![YOLO](https://img.shields.io/badge/YOLO-0A0E17?style=flat-square&logoColor=00D9FF)
+![PyTorch](https://img.shields.io/badge/PyTorch-0A0E17?style=flat-square\&logo=pytorch\&logoColor=00D9FF)
+![OpenCV](https://img.shields.io/badge/OpenCV-0A0E17?style=flat-square\&logo=opencv\&logoColor=00D9FF)
+![YOLO](https://img.shields.io/badge/YOLO-0A0E17?style=flat-square\&logoColor=00D9FF)
 
 </td>
 </tr>
+
 <tr>
 <th align="left">ROBOTICS</th>
 <td>
 
-![Webots](https://img.shields.io/badge/Webots-0A0E17?style=flat-square&logoColor=00D9FF)
+![Webots](https://img.shields.io/badge/Webots-0A0E17?style=flat-square\&logoColor=00D9FF)
 
 </td>
 </tr>
+
 <tr>
 <th align="left">TOOLS</th>
 <td>
 
-![Git](https://img.shields.io/badge/Git-0A0E17?style=flat-square&logo=git&logoColor=00D9FF)
-![GitHub](https://img.shields.io/badge/GitHub-0A0E17?style=flat-square&logo=github&logoColor=00D9FF)
-![Linux](https://img.shields.io/badge/Linux-0A0E17?style=flat-square&logo=linux&logoColor=00D9FF)
+![Git](https://img.shields.io/badge/Git-0A0E17?style=flat-square\&logo=git\&logoColor=00D9FF)
+![GitHub](https://img.shields.io/badge/GitHub-0A0E17?style=flat-square\&logo=github\&logoColor=00D9FF)
+![Linux](https://img.shields.io/badge/Linux-0A0E17?style=flat-square\&logo=linux\&logoColor=00D9FF)
 
 </td>
 </tr>
@@ -185,16 +192,19 @@ Autonomous robotics systems built and iterated on for national and international
 <th align="left" width="160">ISSUER</th>
 <th align="left">VERIFICATION</th>
 </tr>
+
 <tr>
 <td>Computer Vision Foundations</td>
 <td>Ultralytics Academy</td>
 <td><a href="https://academy.ultralytics.com/courses/computer-vision-foundations/certificate/18b45788-a066-4d91-8234-c339c9e24239">verify ↗</a></td>
 </tr>
+
 <tr>
 <td>Building High-Performance YOLO Datasets</td>
 <td>Ultralytics Academy</td>
 <td><a href="https://academy.ultralytics.com/courses/dataset-readiness-for-yolo/certificate/cb676cf9-ac4f-43e2-808f-2287cf2eb135">verify ↗</a></td>
 </tr>
+
 <tr>
 <td>Train Your First YOLO Model</td>
 <td>Ultralytics Academy</td>
@@ -208,10 +218,25 @@ Autonomous robotics systems built and iterated on for national and international
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=AmirSam-Eftekhari&show_icons=true&hide_border=true&bg_color=0A0E17&title_color=00D9FF&icon_color=00D9FF&text_color=E2E8F0&border_color=1E293B" width="48%" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmirSam-Eftekhari&layout=compact&hide_border=true&bg_color=0A0E17&title_color=00D9FF&text_color=E2E8F0&border_color=1E293B" width="48%" alt="Top Languages" />
+<img
+src="https://github-readme-stats.vercel.app/api?username=AmirSam-Eftekhari&show_icons=true&hide_border=true&bg_color=0A0E17&title_color=00D9FF&icon_color=00D9FF&text_color=E2E8F0"
+width="48%"
+alt="GitHub Stats"
+/>
 
-<img src="https://streak-stats.demolab.com?user=AmirSam-Eftekhari&background=0A0E17&stroke=1E293B&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF&sideLabels=E2E8F0&currStreakNum=E2E8F0&sideNums=E2E8F0&dates=64748B&border=1E293B" width="100%" alt="GitHub Streak" />
+<img
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmirSam-Eftekhari&layout=compact&hide_border=true&bg_color=0A0E17&title_color=00D9FF&text_color=E2E8F0"
+width="48%"
+alt="Top Languages"
+/>
+
+<br/>
+
+<img
+src="https://streak-stats.demolab.com?user=AmirSam-Eftekhari&background=0A0E17&stroke=1E293B&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF&sideLabels=E2E8F0&currStreakNum=E2E8F0&sideNums=E2E8F0&dates=64748B&border=1E293B"
+width="100%"
+alt="GitHub Streak"
+/>
 
 </div>
 
@@ -221,8 +246,8 @@ Autonomous robotics systems built and iterated on for national and international
 
 ```text
 STATUS ................. ACTIVE
-FOCUS ................... Computer Vision / AI / Robotics
-MODE .................... Building & Iterating
+FOCUS .................. Computer Vision / AI / Robotics
+MODE ................... Building & Iterating
 ```
 
 <img src="./assets/divider.svg" width="100%" alt="" />
@@ -231,10 +256,13 @@ MODE .................... Building & Iterating
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-0A0E17?style=flat-square&logo=gmail&logoColor=00D9FF)](mailto:samnia2010@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-0A0E17?style=flat-square&logo=instagram&logoColor=00D9FF)](https://instagram.com/sam_nia0)
+[![Email](https://img.shields.io/badge/Email-0A0E17?style=flat-square\&logo=gmail\&logoColor=00D9FF)](mailto:samnia2010@gmail.com)
+
+[![Instagram](https://img.shields.io/badge/Instagram-0A0E17?style=flat-square\&logo=instagram\&logoColor=00D9FF)](https://instagram.com/sam_nia0)
 
 </div>
+
+<br/>
 
 <div align="center">
 
