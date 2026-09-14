@@ -76,7 +76,7 @@ P02
 
 <sub>`COMPUTER VISION`   `OMR`   `OFFLINE` — STATUS: PUBLIC</sub>
 
-Offline computer-vision-based OMR system for processing and grading exam sheets.
+Offline, computer-vision-based OMR system for processing and grading exam sheets.
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ P04
 
 <sub>`ROBOTICS`   `AUTONOMY`   `COMPETITION` — STATUS: TEAM PROJECT</sub>
 
-Autonomous robotics systems developed and iterated on for national and international competition. Code is kept private under team policy.
+Autonomous robotics systems built and iterated on for national and international competition. Code kept private per team policy.
 
 </td>
 </tr>
@@ -214,35 +214,7 @@ Autonomous robotics systems developed and iterated on for national and internati
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## `07` — GITHUB ACTIVITY
-
-<div align="center">
-
-<img
-src="https://github-readme-stats.vercel.app/api?username=AmirSam-Eftekhari&show_icons=true&hide_border=true&bg_color=0A0E17&title_color=00D9FF&icon_color=00D9FF&text_color=E2E8F0"
-width="48%"
-alt="GitHub Stats"
-/>
-
-<img
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmirSam-Eftekhari&layout=compact&hide_border=true&bg_color=0A0E17&title_color=00D9FF&text_color=E2E8F0"
-width="48%"
-alt="Top Languages"
-/>
-
-<br/>
-
-<img
-src="https://streak-stats.demolab.com?user=AmirSam-Eftekhari&background=0A0E17&stroke=1E293B&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF&sideLabels=E2E8F0&currStreakNum=E2E8F0&sideNums=E2E8F0&dates=64748B&border=1E293B"
-width="100%"
-alt="GitHub Streak"
-/>
-
-</div>
-
-<img src="./assets/divider.svg" width="100%" alt="" />
-
-## `08` — CURRENT SYSTEM
+## `07` — CURRENT SYSTEM
 
 ```text
 STATUS ................. ACTIVE
@@ -252,7 +224,7 @@ MODE ................... Building & Iterating
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## `09` — CONTACT
+## `08` — CONTACT
 
 <div align="center">
 
