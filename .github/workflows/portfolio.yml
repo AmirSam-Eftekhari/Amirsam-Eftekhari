@@ -1,0 +1,45 @@
+name: Refresh portfolio
+
+# GitHub has no "repository created" event for a profile repo, so discovery is a daily schedule
+# plus manual dispatch. Pushes only re-run when the generator or its config change.
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [portfolio.yml, scripts/**, requirements.txt]
+
+permissions: {}   # deny everything by default; the job grants only what it needs
+
+concurrency:
+  group: portfolio-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write   # push the regenerated README.md / PORTFOLIO.md, nothing else
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Generate
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # only raises the API rate limit; never printed
+        run: python -m scripts.portfolio generate -v
+      - name: Commit if changed
+        run: |
+          if [ -z "$(git status --porcelain -- README.md PORTFOLIO.md)" ]; then
+            echo "No portfolio changes."; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md PORTFOLIO.md
+          git commit -m "chore(portfolio): refresh generated files"
+          git push

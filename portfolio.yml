@@ -1,0 +1,100 @@
+# Editorial source of truth for the profile portfolio.
+# Hand-edit this file; PORTFOLIO.md and the featured block in README.md are generated from it.
+# Docs: docs/MAINTAINING.md
+
+profile:
+  owner: AmirSam-Eftekhari
+  profile_repo: Amirsam-Eftekhari      # excluded from discovery automatically
+
+# Category order matters: the first category whose topics/keywords match wins.
+# A keyword ending in * is a prefix match; otherwise whole-word.
+categories:
+  - id: security
+    title: Security & Reliability
+    topics: [security, fuzzing, static-analysis, vulnerability-scanner]
+    keywords: [security, vulnerabilit*, fuzz*, "static analysis", pentest*]
+  - id: robotics
+    title: Robotics & Autonomous Systems
+    topics: [robotics, autonomous-driving, webots, ros]
+    keywords: [robot*, autonomous, webots, lidar, "self-driving"]
+  - id: computer-vision
+    title: Computer Vision
+    topics: [computer-vision, opencv, yolo, mediapipe, omr]
+    keywords: ["computer vision", opencv, yolo, mediapipe, omr, gesture, camera, image*]
+  - id: ai-ml
+    title: AI & Machine Learning
+    topics: [machine-learning, deep-learning, nlp, pytorch]
+    keywords: [ai, "machine learning", nlp, semantic, neural*, model*]
+  - id: software
+    title: Software Engineering
+fallback_category: software
+
+# Curated, hand-written. Order here is display order.
+# `evidence` is editorial: facts checked against the repository on 2026-10-22. Re-verify when you edit it.
+featured:
+  - repo: GradeForge
+    category: ai-ml
+    tags: [Python, PySide6, SQLite, Sentence-Transformers]
+    summary: >-
+      Offline-first, multilingual desktop app for grading descriptive exams. Combines semantic
+      similarity and concept coverage into explainable, confidence-aware scores, with local
+      history, analytics and report export.
+    evidence: Documented architecture and grading pipeline, desktop and CLI interfaces, MIT licence.
+
+  - repo: ExamCorrector-
+    title: ExamCorrector
+    category: computer-vision
+    tags: [Python, OpenCV, Flask, Tesseract OCR]
+    summary: >-
+      Offline OMR platform for photographed or scanned bubble sheets. Registers each page with
+      corner markers, grades against an answer key, and flags uncertain marks for human review
+      instead of guessing.
+    evidence: CI workflow, 52 test functions, English and Persian printable templates, SECURITY.md and CITATION.cff.
+
+  - repo: BlueLine
+    category: security
+    tags: [Python, Fuzzing, Static analysis]
+    summary: >-
+      Offline security and reliability assessment platform: Python static analysis, web/API
+      checks, ELF/PE/Mach-O binary analysis, dynamic testing and behaviour-guided fuzzing,
+      with correlated, confidence-rated reports.
+    evidence: v1.0.0 release, 200 test functions, purpose-built vulnerable test targets.
+
+  - repo: HandGestureControl
+    category: computer-vision
+    tags: [Python, MediaPipe, PySide6]
+    summary: >-
+      Real-time hand-gesture desktop control: MediaPipe tracking, temporal smoothing, custom
+      gesture recording, gesture-to-action mapping and a modular PySide6 interface.
+    evidence: v1.0.0 release, 125 test functions, Windows build tooling.
+
+  - repo: ImageAudit
+    category: computer-vision
+    tags: [Python, FastAPI, Docker]
+    summary: >-
+      Local-first auditing for YOLO datasets: integrity, image quality, annotation errors,
+      duplicates and train/val/test leakage, scored and reported as HTML, PDF, JSON and CSV
+      via CLI, web dashboard or single-file Windows executable.
+    evidence: v1.0.0 release, CI on Linux and Windows, 167 test functions, Docker support.
+
+# Repositories never shown in the discovered list (case-insensitive).
+exclude: []
+
+# Per-repository editorial overrides for discovered projects: category, summary, boost
+# (boost is added to the ranking score; ~1 moves a project up a few places).
+overrides: {}
+  # some-repo:
+  #   category: robotics
+
+discovery:
+  min_description_length: 20
+  max_listed: 12
+  min_description_words: 4       # one-word or two-word descriptions are treated as missing
+  exclude_topics: [experiment, wip, archive, playground]
+  # Relative weights of the ranking terms (see scripts/portfolio/select.py::score).
+  weights:
+    recency: 3
+    documentation: 2
+    topics: 1
+    license: 1
+    stars: 0.5

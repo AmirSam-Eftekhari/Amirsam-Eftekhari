@@ -1,130 +1,109 @@
-[![Sam — AI / Robotics / Computer Vision](https://github.com/AmirSam-Eftekhari/Amirsam-Eftekhari/raw/main/assets/hero.svg)](https://github.com/AmirSam-Eftekhari/Amirsam-Eftekhari/blob/main/assets/hero.svg)
-
-
 <p align="center">
-  <a href="https://github.com/AmirSam-Eftekhari/Amirsam-Eftekhari/blob/main/assets/status.svg">
-    <img src="https://github.com/AmirSam-Eftekhari/Amirsam-Eftekhari/raw/main/assets/status.svg" alt="System Status: Online" width="220">
-  </a>
+  <img src="assets/hero.svg" alt="Sam Nia — AI, Robotics &amp; Engineering Systems" width="100%">
 </p>
 
 <p align="center">
-  <a href="#01--about">ABOUT</a> ·
-  <a href="#02--engineering-systems">SYSTEMS</a> ·
-  <a href="#03--selected-engineering-systems">PROJECTS</a> ·
-  <a href="#04--mission-log">LOG</a> ·
-  <a href="#05--technology-matrix">STACK</a> ·
-  <a href="#06--credentials">CREDENTIALS</a> ·
-  <a href="#07--connectsam">CONNECT</a> ·
-  <a href="https://samnia.vercel.app">SITE ↗</a>
+  <a href="#focus">Focus</a> ·
+  <a href="#featured-systems">Featured systems</a> ·
+  <a href="#competitions">Competitions</a> ·
+  <a href="#credentials">Credentials</a> ·
+  <a href="PORTFOLIO.md">All projects</a> ·
+  <a href="https://samnia.vercel.app">Website ↗</a>
 </p>
 
-```
-SYSTEM://sam-nia
+I build perception, autonomy and software systems end to end: offline-first pipelines, explainable
+grading, gesture interfaces, security tooling and autonomous driving in simulation. Each project below is a
+complete, reviewable system with documentation, not a demo.
 
-├── DOMAIN[0]  AI & MACHINE LEARNING
-├── DOMAIN[1]  COMPUTER VISION
-├── DOMAIN[2]  ROBOTICS
-└── DOMAIN[3]  SOFTWARE ENGINEERING
-```
+<img src="assets/divider.svg" alt="" width="100%">
 
-[![](https://github.com/AmirSam-Eftekhari/Amirsam-Eftekhari/raw/main/assets/divider.svg)](https://github.com/AmirSam-Eftekhari/Amirsam-Eftekhari/blob/main/assets/divider.svg)
+## Focus
 
-## `01` — ABOUT
+<img src="assets/systems.svg" alt="Machine learning, computer vision, robotics, software engineering and security feed one offline-first engineering method" width="100%">
 
-I'd rather build the system than study the slide about it.
-
-High-school engineer working across **AI**, **Computer Vision**, and **Robotics** — with a growing interest in **AI Security**. Recent work spans an offline OMR grading platform tested against real filled answer sheets, a semantic grading engine wrapped in a production-style desktop app, a real-time gesture-control interface, and an autonomous driving stack built from scratch in Webots. The throughline is the same everywhere: offline-first, no faked outputs, bugs traced to ground truth rather than trusted on faith.
-
-| | |
+| Area | Evidence in public work |
 |---|---|
-| **NAME** | Amirsam Eftekharinia |
-| **HANDLE** | AmirSam-Eftekhari |
-| **ROLE** | Engineer / Builder |
-| **FOCUS** | AI · CV · Robotics |
-| **SECONDARY** | AI Security |
-| **MODE** | Building |
+| **Machine learning** | Semantic, explainable exam grading in [GradeForge](https://github.com/AmirSam-Eftekhari/GradeForge) |
+| **Computer vision** | OMR in [ExamCorrector](https://github.com/AmirSam-Eftekhari/ExamCorrector-), real-time tracking in [HandGestureControl](https://github.com/AmirSam-Eftekhari/HandGestureControl), dataset diagnostics in [ImageAudit](https://github.com/AmirSam-Eftekhari/ImageAudit) |
+| **Robotics** | Competition robotics, and lane detection and vehicle control in Webots (simulation repository not yet public) |
+| **Software engineering** | Desktop and web applications with test suites, CI and packaged releases |
+| **Security & reliability** | Static analysis, fuzzing and correlated reporting in [BlueLine](https://github.com/AmirSam-Eftekhari/BlueLine) |
 
-[![](https://github.com/AmirSam-Eftekhari/Amirsam-Eftekhari/raw/main/assets/divider.svg)](https://github.com/AmirSam-Eftekhari/Amirsam-Eftekhari/blob/main/assets/divider.svg)
+<img src="assets/divider.svg" alt="" width="100%">
 
-## `02` — ENGINEERING SYSTEMS
+## Featured systems
 
-Four domains, one working method.
+<!-- portfolio:featured:start -->
+#### [GradeForge](https://github.com/AmirSam-Eftekhari/GradeForge)
+<sub>AI & Machine Learning · Python · PySide6 · SQLite · Sentence-Transformers</sub>
 
-[![Engineering systems diagram — AI, Computer Vision, Robotics, Software Engineering, AI Security](https://github.com/AmirSam-Eftekhari/Amirsam-Eftekhari/raw/main/assets/systems.svg)](https://github.com/AmirSam-Eftekhari/Amirsam-Eftekhari/blob/main/assets/systems.svg)
+Offline-first, multilingual desktop app for grading descriptive exams. Combines semantic similarity and concept coverage into explainable, confidence-aware scores, with local history, analytics and report export.
 
-[![](https://github.com/AmirSam-Eftekhari/Amirsam-Eftekhari/raw/main/assets/divider.svg)](https://github.com/AmirSam-Eftekhari/Amirsam-Eftekhari/blob/main/assets/divider.svg)
+**Evidence:** Documented architecture and grading pipeline, desktop and CLI interfaces, MIT licence.
 
-## `03` — SELECTED ENGINEERING SYSTEMS
+[Repository](https://github.com/AmirSam-Eftekhari/GradeForge)
 
-What's actually been built.
+#### [ExamCorrector](https://github.com/AmirSam-Eftekhari/ExamCorrector-)
+<sub>Computer Vision · Python · OpenCV · Flask · Tesseract OCR</sub>
 
-| | |
-|---|---|
-| ```P01``` | **[GradeForge](https://github.com/AmirSam-Eftekhari/GradeForge)**<br>`AI` `NLP` `EDUCATION` — STATUS: PUBLIC<br>AI-assisted system for grading written and long-answer exam responses. |
-| ```P02``` | **[ExamCorrector](https://github.com/AmirSam-Eftekhari/ExamCorrector-)**<br>`COMPUTER VISION` `OMR` `OFFLINE` — STATUS: PUBLIC<br>Offline, computer-vision-based OMR system for processing and grading exam sheets. |
-| ```P03``` | **[BlueLine](https://github.com/AmirSam-Eftekhari/BlueLine)**<br>`AI SECURITY` `STATIC ANALYSIS` `DYNAMIC ANALYSIS` — STATUS: PUBLIC<br>Offline security analysis platform combining static code analysis, dependency vulnerability detection, dynamic testing, fuzzing, and automated security reporting. |
-| ```P04``` | **[HandGestureControl](https://github.com/AmirSam-Eftekhari/HandGestureControl)**<br>`COMPUTER VISION` `HCI` `REAL-TIME` — STATUS: PUBLIC<br>Real-time hand gesture recognition and computer control using MediaPipe, temporal gesture analysis, and a modular PySide6 desktop app. |
-| ```P05``` | **Autonomous Systems / Robotics**<br>`ROBOTICS` `AUTONOMY` `COMPUTER VISION` — STATUS: TEAM PROJECT<br>Autonomous robotics and self-driving systems built with computer vision, sensor processing, vehicle control, and simulation environments. Selected competition robotics code is kept private per team policy. |
+Offline OMR platform for photographed or scanned bubble sheets. Registers each page with corner markers, grades against an answer key, and flags uncertain marks for human review instead of guessing.
 
-[![](https://github.com/AmirSam-Eftekhari/Amirsam-Eftekhari/raw/main/assets/divider.svg)](https://github.com/AmirSam-Eftekhari/Amirsam-Eftekhari/blob/main/assets/divider.svg)
+**Evidence:** CI workflow, 52 test functions, English and Persian printable templates, SECURITY.md and CITATION.cff.
 
-## `04` — MISSION LOG
+[Repository](https://github.com/AmirSam-Eftekhari/ExamCorrector-)
 
-Competition record.
+#### [BlueLine](https://github.com/AmirSam-Eftekhari/BlueLine)
+<sub>Security & Reliability · Python · Fuzzing · Static analysis</sub>
 
-| YEAR | EVENT | RESULT |
+Offline security and reliability assessment platform: Python static analysis, web/API checks, ELF/PE/Mach-O binary analysis, dynamic testing and behaviour-guided fuzzing, with correlated, confidence-rated reports.
+
+**Evidence:** v1.0.0 release, 200 test functions, purpose-built vulnerable test targets.
+
+[Repository](https://github.com/AmirSam-Eftekhari/BlueLine) · [Release v1.0.0](https://github.com/AmirSam-Eftekhari/BlueLine/releases/tag/v1.0.0)
+
+#### [HandGestureControl](https://github.com/AmirSam-Eftekhari/HandGestureControl)
+<sub>Computer Vision · Python · MediaPipe · PySide6</sub>
+
+Real-time hand-gesture desktop control: MediaPipe tracking, temporal smoothing, custom gesture recording, gesture-to-action mapping and a modular PySide6 interface.
+
+**Evidence:** v1.0.0 release, 125 test functions, Windows build tooling.
+
+[Repository](https://github.com/AmirSam-Eftekhari/HandGestureControl) · [Release v1.0.0](https://github.com/AmirSam-Eftekhari/HandGestureControl/releases/tag/v1.0.0)
+
+#### [ImageAudit](https://github.com/AmirSam-Eftekhari/ImageAudit)
+<sub>Computer Vision · Python · FastAPI · Docker</sub>
+
+Local-first auditing for YOLO datasets: integrity, image quality, annotation errors, duplicates and train/val/test leakage, scored and reported as HTML, PDF, JSON and CSV via CLI, web dashboard or single-file Windows executable.
+
+**Evidence:** v1.0.0 release, CI on Linux and Windows, 167 test functions, Docker support.
+
+[Repository](https://github.com/AmirSam-Eftekhari/ImageAudit) · [Release v1.0.0](https://github.com/AmirSam-Eftekhari/ImageAudit/releases/tag/v1.0.0)
+<!-- portfolio:featured:end -->
+
+More public work is indexed automatically in [PORTFOLIO.md](PORTFOLIO.md).
+
+<img src="assets/divider.svg" alt="" width="100%">
+
+## Competitions
+
+| Year | Event | Result |
 |---|---|---|
 | 2025 | RoboCup Iran Open | Participant |
 | 2026 | IranOpen Junior | National Champion |
 | 2026 | IranOpen Junior | Best Technical Challenge |
-| 2026 | RoboCupJunior | 4th Place — World Finals |
+| 2026 | RoboCupJunior | 4th place, world finals |
 
-[![](https://github.com/AmirSam-Eftekhari/Amirsam-Eftekhari/raw/main/assets/divider.svg)](https://github.com/AmirSam-Eftekhari/Amirsam-Eftekhari/blob/main/assets/divider.svg)
+<sub>Results are self-reported; no public result page is linked yet. Competition robotics code is a team project and is not public.</sub>
 
-## `05` — TECHNOLOGY MATRIX
+## Credentials
 
-Tools in active use.
+Ultralytics Academy certificates:
+[Computer Vision Foundations](https://academy.ultralytics.com/courses/computer-vision-foundations/certificate/18b45788-a066-4d91-8234-c339c9e24239) ·
+[Building High-Performance YOLO Datasets](https://academy.ultralytics.com/courses/dataset-readiness-for-yolo/certificate/cb676cf9-ac4f-43e2-808f-2287cf2eb135) ·
+[Train Your First YOLO Model](https://academy.ultralytics.com/courses/train-your-first-yolo/certificate/5384a777-e4e4-4cfd-9dce-589c86fbead1)
 
-| | |
-|---|---|
-| **LANGUAGES** | ![Python](https://img.shields.io/badge/Python-0A0E17?style=flat&logo=python&logoColor=00D9FF) ![C++](https://img.shields.io/badge/C%2B%2B-0A0E17?style=flat&logo=cplusplus&logoColor=00D9FF) |
-| **AI / ML** | ![PyTorch](https://img.shields.io/badge/PyTorch-0A0E17?style=flat&logo=pytorch&logoColor=00D9FF) ![TensorFlow](https://img.shields.io/badge/TensorFlow-0A0E17?style=flat&logo=tensorflow&logoColor=00D9FF) ![OpenCV](https://img.shields.io/badge/OpenCV-0A0E17?style=flat&logo=opencv&logoColor=00D9FF) ![YOLO](https://img.shields.io/badge/YOLO-0A0E17?style=flat&logoColor=00D9FF) ![MediaPipe](https://img.shields.io/badge/MediaPipe-0A0E17?style=flat&logoColor=00D9FF) |
-| **ROBOTICS** | ![Webots](https://img.shields.io/badge/Webots-0A0E17?style=flat&logoColor=00D9FF) |
-| **SECURITY** | ![Static Analysis](https://img.shields.io/badge/Static%20Analysis-0A0E17?style=flat&logoColor=00D9FF) ![Fuzzing](https://img.shields.io/badge/Fuzzing-0A0E17?style=flat&logoColor=00D9FF) ![Vulnerability Analysis](https://img.shields.io/badge/Vulnerability%20Analysis-0A0E17?style=flat&logoColor=00D9FF) |
-| **TOOLS** | ![Git](https://img.shields.io/badge/Git-0A0E17?style=flat&logo=git&logoColor=00D9FF) ![GitHub](https://img.shields.io/badge/GitHub-0A0E17?style=flat&logo=github&logoColor=00D9FF) ![Linux](https://img.shields.io/badge/Linux-0A0E17?style=flat&logo=linux&logoColor=00D9FF) |
+<img src="assets/divider.svg" alt="" width="100%">
 
-[![](https://github.com/AmirSam-Eftekhari/Amirsam-Eftekhari/raw/main/assets/divider.svg)](https://github.com/AmirSam-Eftekhari/Amirsam-Eftekhari/blob/main/assets/divider.svg)
+**Contact:** [samnia.vercel.app](https://samnia.vercel.app) · [LinkedIn](https://www.linkedin.com/in/amirsam-eftekharinia/) · [Instagram](https://instagram.com/sam_nia0) · [Email](mailto:samnia2010@gmail.com)
 
-## `06` — CREDENTIALS
-
-| CREDENTIAL | ISSUER | VERIFICATION |
-|---|---|---|
-| Computer Vision Foundations | Ultralytics Academy | [verify ↗](https://academy.ultralytics.com/courses/computer-vision-foundations/certificate/18b45788-a066-4d91-8234-c339c9e24239) |
-| Building High-Performance YOLO Datasets | Ultralytics Academy | [verify ↗](https://academy.ultralytics.com/courses/dataset-readiness-for-yolo/certificate/cb676cf9-ac4f-43e2-808f-2287cf2eb135) |
-| Train Your First YOLO Model | Ultralytics Academy | [verify ↗](https://academy.ultralytics.com/courses/train-your-first-yolo/certificate/5384a777-e4e4-4cfd-9dce-589c86fbead1) |
-
-
-[![](https://github.com/AmirSam-Eftekhari/Amirsam-Eftekhari/raw/main/assets/divider.svg)](https://github.com/AmirSam-Eftekhari/Amirsam-Eftekhari/blob/main/assets/divider.svg)
-
-## `07` — CONNECT://SAM
-
-```
-STATUS .............. ACTIVE
-FOCUS ............... Computer Vision / AI / Robotics / Security
-MODE ................ Building & Iterating
-```
-
-Open a channel. Building in the open across GitHub — happy to hear from teams, mentors, or collaborators working on similar problems.
-
-[![Email](https://img.shields.io/badge/Email-0A0E17?style=flat&logo=gmail&logoColor=00D9FF)](mailto:samnia2010@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A0E17?style=flat&logo=linkedin&logoColor=00D9FF)](https://www.linkedin.com/in/amirsam-eftekharinia/)
-[![Instagram](https://img.shields.io/badge/Instagram-0A0E17?style=flat&logo=instagram&logoColor=00D9FF)](https://instagram.com/sam_nia0)
-[![Website](https://img.shields.io/badge/samnia.vercel.app-0A0E17?style=flat&logo=vercel&logoColor=00D9FF)](https://samnia.vercel.app)
-
-[![](https://github.com/AmirSam-Eftekhari/Amirsam-Eftekhari/raw/main/assets/divider.svg)](https://github.com/AmirSam-Eftekhari/Amirsam-Eftekhari/blob/main/assets/divider.svg)
-
-```
-SYSTEM://sam-nia · STATUS://ONLINE · BUILD://2026
-```
-
-[![](https://github.com/AmirSam-Eftekhari/Amirsam-Eftekhari/raw/main/assets/footer.svg)](https://github.com/AmirSam-Eftekhari/Amirsam-Eftekhari/blob/main/assets/footer.svg)
+<sub>The featured section and PORTFOLIO.md are generated from <a href="portfolio.yml">portfolio.yml</a>; see <a href="docs/MAINTAINING.md">docs/MAINTAINING.md</a>.</sub>
