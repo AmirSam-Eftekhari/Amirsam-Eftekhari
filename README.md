@@ -41,9 +41,9 @@ Also worth a look: [**BlueLine**](https://github.com/AmirSam-Eftekhari/BlueLine)
 
 ## Credentials
 
-<img src="assets/credentials.svg" alt="Ultralytics Academy certificates: Computer Vision Foundations; Building High-Performance YOLO Datasets; Train Your First YOLO Model." width="100%">
+<img src="assets/credentials.svg" alt="Five Ultralytics Academy certificates: Computer Vision Foundations; Building High-Performance YOLO Datasets; Train Your First YOLO Model; Ultralytics YOLO in Production; Build with Ultralytics Platform." width="100%">
 
-Verify: [Computer Vision Foundations](https://academy.ultralytics.com/courses/computer-vision-foundations/certificate/18b45788-a066-4d91-8234-c339c9e24239) &nbsp;|&nbsp; [YOLO Datasets](https://academy.ultralytics.com/courses/dataset-readiness-for-yolo/certificate/cb676cf9-ac4f-43e2-808f-2287cf2eb135) &nbsp;|&nbsp; [First YOLO Model](https://academy.ultralytics.com/courses/train-your-first-yolo/certificate/5384a777-e4e4-4cfd-9dce-589c86fbead1)
+Verify: [Computer Vision Foundations](https://academy.ultralytics.com/courses/computer-vision-foundations/certificate/18b45788-a066-4d91-8234-c339c9e24239) &nbsp;|&nbsp; [YOLO Datasets](https://academy.ultralytics.com/courses/dataset-readiness-for-yolo/certificate/cb676cf9-ac4f-43e2-808f-2287cf2eb135) &nbsp;|&nbsp; [First YOLO Model](https://academy.ultralytics.com/courses/train-your-first-yolo/certificate/5384a777-e4e4-4cfd-9dce-589c86fbead1) &nbsp;|&nbsp; [YOLO in Production](https://academy.ultralytics.com/courses/yolo-in-production/certificate/250fbc59-259d-41f4-abdc-a753fda5b155) &nbsp;|&nbsp; [Ultralytics Platform](https://academy.ultralytics.com/courses/build-with-ultralytics-platform/certificate/d7fe4aea-16c5-4a86-8ea8-dcf79b9e8c5d)
 
 <br>
 
